@@ -1,0 +1,110 @@
+.cabecera {
+  height: auto;
+  color: purple;
+  font-style: italic; }
+
+.tituloPrincipal {
+  padding: 20px;
+  font-family: 'Alfa Slab One', cursive;
+  font-style: italic;
+  font-size: 3rem;
+  font-weight: bold; }
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+  height: 30px;
+  width: 30px;
+  outline: black;
+  background-color: rgba(0, 0, 0, 0.3);
+  background-size: 100%, 100%;
+  border-radius: 50%;
+  border: 1px solid black; }
+
+.carousel-caption {
+  outline: black;
+  background-color: rgba(0, 0, 0, 0.3);
+  border: 1px solid black; }
+
+.reputacion {
+  background-color: orange;
+  color: whitesmoke;
+  padding: 100px;
+  font-family: 'Permanent Marker', cursive;
+  font-style: italic;
+  font-weight: bold;
+  text-align: center; }
+
+.ultimaNovedad {
+  padding: 15%;
+  background-image: url("../multimedia/futuroAdiestrador.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat; }
+  .ultimaNovedad a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Gluten', cursive;
+    font-style: italic;
+    font-size: 3rem;
+    text-align: center; }
+    .ultimaNovedad a h1 {
+      outline: black;
+      background-color: rgba(0, 0, 0, 0.3);
+      border: 1px solid black; }
+
+.curiosidades {
+  padding: 20px;
+  background-image: url("../multimedia/multimedia.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+.recomendaciones {
+  background-color: darkslategrey;
+  color: whitesmoke;
+  padding: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
+  font-weight: bold;
+  text-align: center; }
+
+/*link a Index en cada pagina*/
+.linkIndex {
+  transition: transform 1s;
+  padding: 0px; }
+  .linkIndex a {
+    color: black;
+    text-decoration: none;
+    font-family: 'Gluten', cursive;
+    font-style: normal;
+    font-size: 1.2rem; }
+  .linkIndex:hover {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.3rem; }
+
+/*botones de formularios*/
+.boton-borrar:hover {
+  background-color: white !important;
+  color: black !important;
+  border: 2px solid grey !important; }
+
+.boton-enviar:hover {
+  background-color: white !important;
+  color: black !important;
+  border: 2px solid #4CAF50 !important; }
+
+/*fondo de las paginas*/
+.fondoPages {
+  background-image: url("../multimedia/fondoPrinciapalVioleta.jpg");
+  background-repeat: repeat;
+  background-size: cover;
+  background-position: 0px;
+  padding: 10px; }
+  .fondoPages p {
+    font-style: italic;
+    color: black;
+    font-weight: bolder; }
+  .fondoPages label {
+    color: black;
+    font-weight: bolder; }

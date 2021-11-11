@@ -1,0 +1,48 @@
+.reputacion{
+    background-color: orange;
+
+    color: whitesmoke;
+
+    padding: 100px;
+
+    font-family: 'Permanent Marker', cursive;
+    font-style: italic;
+    font-weight: bold;
+
+    text-align: center;
+}
+
+.ultimaNovedad{
+    padding: 15%;
+
+    background-image: url("../multimedia/futuroAdiestrador.jpg");
+    background-position:center;
+    background-size: cover;
+    background-repeat:no-repeat;
+
+    a{
+        text-decoration: none;
+        color: white;
+        font-family: 'Gluten', cursive;
+        font-style:italic;
+        font-size: 3rem;
+
+        text-align: center;
+
+        h1{
+            outline: black;
+            background-color: rgba(0, 0, 0, 0.3);
+            border: 1px solid black;
+        }
+    }
+}
+
+.curiosidades{
+    padding: 20px;
+    
+    background-image: url("../multimedia/multimedia.jpg");
+    background-position:center;
+    background-size: cover;
+    background-repeat:no-repeat;
+}
+

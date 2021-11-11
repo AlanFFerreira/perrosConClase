@@ -1,0 +1,65 @@
+@import "header";
+@import "carousel";
+@import "index";
+@import "footer";
+
+/*link a Index en cada pagina*/
+
+.linkIndex{
+    transition: transform 1s;
+
+    padding:0px;
+
+    a{
+        color: black;
+        text-decoration: none;
+        font-family: 'Gluten', cursive;
+        font-style: normal;
+        font-size: 1.2rem;
+    }
+
+    &:hover{
+        color: black;
+        text-decoration: none;
+
+        font-weight: bold;
+        font-size: 1.3rem;
+    }
+}
+
+/*botones de formularios*/
+
+.boton-borrar:hover{
+    background-color: white !important;
+    color: black !important;
+    border: 2px solid grey !important;
+}
+
+.boton-enviar:hover{
+    background-color: white !important;
+    color: black !important;
+    border: 2px solid #4CAF50 !important;
+}
+
+/*fondo de las paginas*/
+
+.fondoPages{
+    background-image: url("../multimedia/fondoPrinciapalVioleta.jpg");
+    background-repeat: repeat;
+    background-size: cover;
+    background-position: 0px;
+
+    padding: 10px;
+
+    p{
+        font-style: italic;
+        color: black;
+        font-weight: bolder;
+    }
+
+    label{
+        color: black;
+        font-weight: bolder;
+    }
+}
+
