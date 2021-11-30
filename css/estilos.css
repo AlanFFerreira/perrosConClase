@@ -1,3 +1,7 @@
+* {
+  padding: 0;
+  margin: 0; }
+
 .cabecera {
   height: auto;
   color: purple;
@@ -9,6 +13,13 @@
   font-style: italic;
   font-size: 3rem;
   font-weight: bold; }
+  .tituloPrincipal a {
+    text-decoration: none;
+    color: purple;
+    font-family: 'Alfa Slab One', cursive;
+    font-style: italic;
+    font-size: 3rem;
+    font-weight: bold; }
 
 .carousel-control-prev-icon, .carousel-control-next-icon {
   height: 30px;
@@ -27,11 +38,14 @@
 .reputacion {
   background-color: orange;
   color: whitesmoke;
-  padding: 100px;
   font-family: 'Permanent Marker', cursive;
   font-style: italic;
   font-weight: bold;
-  text-align: center; }
+  text-align: center;
+  padding: 50px; }
+  .reputacion div {
+    border: 1px solid black;
+    border-radius: 50%; }
 
 .ultimaNovedad {
   padding: 15%;
@@ -68,6 +82,9 @@
   text-align: center; }
 
 /*link a Index en cada pagina*/
+.container {
+  max-width: 100%; }
+
 .linkIndex {
   transition: transform 1s;
   padding: 0px; }
@@ -96,11 +113,10 @@
 
 /*fondo de las paginas*/
 .fondoPages {
-  background-image: url("../multimedia/fondoPrinciapalVioleta.jpg");
+  background-image: linear-gradient(#f7f5f8a6, #945394a6), url("../multimedia/fondoPrinciapalVioleta.jpg");
   background-repeat: repeat;
   background-size: cover;
-  background-position: 0px;
-  padding: 10px; }
+  background-position: 0px; }
   .fondoPages p {
     font-style: italic;
     color: black;
