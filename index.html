@@ -31,28 +31,29 @@
     <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Fredoka+One&family=Permanent+Marker&display=swap" rel="stylesheet">
 
 </head>
+
 <body>
     <!-- Header -->
-    <header>
+    <header class="container">
 
         <div class="row cabecera">
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
         
-                <div class="col-md-4 tituloPrincipal">
+                <div class="col-md-4 col-xs-12 tituloPrincipal">
                     <h1>Perros con clase</h1>
                 </div>
         
-                <div class="col-md-6 text-center">
+                <div class="col-md-6 col-xs-12 text-center">
                     <ul class="navbar-nav">
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" role="button" 
                             data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="pages/cursos.html">
                             Nuestros cursos</a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                <li><a class="dropdown-item" href="pages/cursos.html #curso1">Curso 1</a></li>
-                                <li><a class="dropdown-item" href="pages/cursos.html #curso2">Curso 2</a></li>
-                                <li><a class="dropdown-item" href="pages/cursos.html #curso3">Curso 3</a></li>
-                                <li><a class="dropdown-item" href="pages/cursos.html #curso4">Curso 4</a></li>
+                                <li><a class="dropdown-item" href="pages/cursos.html #curso1">Curso de Obediencia y Conducta</a></li>
+                                <li><a class="dropdown-item" href="pages/cursos.html #curso2">Curso de Entretenimiento</a></li>
+                                <li><a class="dropdown-item" href="pages/cursos.html #curso3">Curso de Socialización</a></li>
+                                <li><a class="dropdown-item" href="pages/cursos.html #curso4">Curso de Esparcimiento</a></li>
                             </ul>
                         </li>
                         <li class="nav-item">
@@ -78,7 +79,7 @@
                     </ul>
                 </div>
 
-                <div class="col-md-2">
+                <div class="col-md-2 col-xs-12">
                     <img src="multimedia/miniLogo.png" alt="" height="120" width="120">
                 </div>
 
@@ -87,10 +88,10 @@
     </header>
     
     <!-- Main -->
-    <main>
+    <main class="container">
 
         <!-- Carousel-->
-        <div id="carouselExampleIndicators" class="carousel slide row" data-ride="carousel">
+        <div id="carouselExampleIndicators" class="row carousel slide" data-ride="carousel">
             <ol class="carousel-indicators">
                 <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
                 <li data-target="#carouselExampleIndicators" data-slide-to="1" class="active"></li>
@@ -128,17 +129,17 @@
 
         <!-- Reputación -->
         <div class="row reputacion">
-            <div class="col-md-4 ">
+            <div class="col-md-4 col-sm-12">
                 <h1>15</h1>
                 <h1>profesionales y educadores</h1>
             </div>
 
-            <div class="col-md-4 ">
+            <div class="col-md-4 col-sm-12">
                 <h1>+ 5.000 </h1>
                 <h1>familias felices</h1>
             </div>
 
-            <div class="col-md-4 ">
+            <div class="col-md-4 col-sm-12">
                 <h1>200 mil </h1>
                 <h1>seguidores</h1>
             </div>
@@ -146,42 +147,42 @@
 
         <!-- Ultima novedad -->
         <div class="row ultimaNovedad">
-            <div class="col-md-12">
-                <a href="pages/quienesSomos.html #nuevosAdiestradores"><h1>Convertite en adiestrador</h1></a>
+            <div class="col-md-12 col-xs-12">
+                <a href="pages/historia.html #nuevosAdiestradores"><h1>Convertite en adiestrador</h1></a>
             </div>
         </div>
 
         <!-- Curiosidades -->
         <div class="row curiosidades">
-            <div class="col-md-12">
+            <div class="col-md-12 col-xs-12">
                 <h3>TIPS Y CONSEJOS EN LA CRIANZA DE TU PERRO</h3><br>
             </div>
             
 
-            <div class="col-md-6">
+            <div class="row col-md-6 col-xs-12">
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/D4SEZsEmQ2Y"
                 title="YouTube video player" frameborder="0" allow="accelerometer; autoplay;clipboard-write; 
                 encrypted-media; gyroscope; picture-in-picture" allowfullscreen ></iframe>
             </div>
 
-            <div class="col-md-6">
+            <div class="row col-md-6 col-xs-12">
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/Cv9tfjN4Eoc" 
                 title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
                 allowfullscreen></iframe>
             </div>
         </div>
 
-
     </main>
 
     <!-- Footer -->
 
-    <footer class="bg-light text-center text-black">
+    <footer class="container bg-light text-center text-black">
 
         <div class="row recomendaciones">
             <div class="col-md-3">
                 <h6>CONOCÉ NUESTRA TIENDA</h6><hr>
-                <img src="multimedia/tiendaMascota.jpg" alt="" height="200" width="300"></a>
+                <h6>Dirección: Quesada 1750 - Lomas de Zamora</h6>
+                <img src="multimedia/tiendaMascota.jpg" class="img-thumbnail" alt="Cinque Terre" height="200" width="300"></a><br><br>
             </div>
 
             <div class="col-md-4">
@@ -196,7 +197,7 @@
             </div>
         </div>
 
-        <div class="container p-4 pb-0">
+        <div class="row p-4 pb-0">
             <section class="mb-4">
                 <!-- Facebook -->
                 <a class="btn btn-primary btn-floating m-1" style="background-color: #3b5998;" href="#!" role="button">
@@ -216,9 +217,12 @@
             </section>
         </div>
         <!-- Copyright -->
-        <div class="text-center text-white p-3" style="background-color: rgba(0, 0, 0, 0.2);"> © 2020 Copyright:
-            <a class="text-white" href="https://mdbootstrap.com/">perrosconclase.com</a>
+        <div class="row">
+            <div class="text-center text-white p-3" style="background-color: rgba(0, 0, 0, 0.2);"> © 2020 Copyright:
+                <a class="text-white" href="https://mdbootstrap.com/">perrosconclase.com</a>
+            </div>
         </div>
+        
     </footer>
 
     <!-- Script Bootstrap -->
