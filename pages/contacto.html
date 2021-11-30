@@ -21,16 +21,25 @@
     <meta name="description" content="Conoce nuestro mundo donde enseñamos y ayudamos a tus mascotas a ser mas 
     ordenados, felices y obedientes">
 
+    <!-- Lista de fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Fredoka+One&family=Permanent+Marker&display=swap" rel="stylesheet">
+
 </head>
 <body>
 
     <!-- Header -->
-    <header>
+    <header class="container">
         <div class="row cabecera">
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
         
                 <div class="col-md-4 tituloPrincipal">
-                    <h1>Perros con clase</h1>
+                    <a href="../index.html"><h1>Perros con clase</h1></a>
                 </div>
         
                 <div class="col-md-6 text-center">
@@ -40,10 +49,10 @@
                             data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="../pages/cursos.html">
                             Nuestros cursos</a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                <li><a class="dropdown-item" href="../pages/cursos.html #curso1">Curso 1</a></li>
-                                <li><a class="dropdown-item" href="../pages/cursos.html #curso2">Curso 2</a></li>
-                                <li><a class="dropdown-item" href="../pages/cursos.html #curso3">Curso 3</a></li>
-                                <li><a class="dropdown-item" href="../pages/cursos.html #curso4">Curso 4</a></li>
+                                <li><a class="dropdown-item" href="../pages/cursos.html #curso1">Curso de Obediencia y Conducta</a></li>
+                                <li><a class="dropdown-item" href="../pages/cursos.html #curso2">Curso de Entretenimiento</a></li>
+                                <li><a class="dropdown-item" href="../pages/cursos.html #curso3">Curso de Socialización</a></li>
+                                <li><a class="dropdown-item" href="../pages/cursos.html #curso4">Curso de Esparcimiento</a></li>
                             </ul>
                         </li>
                         <li class="nav-item">
@@ -78,7 +87,7 @@
 
     </header>
 
-    <main class="fondoPages">
+    <main class="container fondoPages">
 
         <h2>Contáctanos</h2><hr><br>
 
@@ -141,17 +150,17 @@
             
             <div class="row">
                 <div class="col-md-1 col-xs-6">
-                    <input class="btn btn-secondary boton-enviar boton"  type="submit" value="Enviar">
+                    <input class="btn btn-success boton-enviar"  type="submit" value="Enviar">
                 </div>
                 <div class="col-md-2 col-xs-6">
-                    <input class="btn btn-secondary boton-borrar boton" type="reset" value="Restablecer formulario">
+                    <input class="btn btn-secondary boton-borrar" type="reset" value="Restablecer formulario">
                 </div>
             </div>
 
         </form>
 
         <div class="row text-center linkIndex">
-            <a href="../index.html"><img src="../multimedia/logo_home.jpg" alt="" height="30" width="30">
+            <a href="../index.html"><img src="../multimedia/logo_home.png" alt="" height="30" width="30">
             Volver a Página principal</a>
         </div><br>
 
@@ -159,21 +168,22 @@
 
     <!-- Footer -->
 
-    <footer class="bg-light text-center text-black">
+    <footer class="container bg-light text-center text-black">
         <div class="row recomendaciones">
             <div class="col-md-3">
                 <h6>CONOCÉ NUESTRA TIENDA</h6><hr>
-                <img src="../multimedia/tiendaMascota.jpg" alt="" height="200" width="300"></a>
+                <h6>Dirección: Quesada 1750 - Lomas de Zamora</h6>
+                <img src="../multimedia/tiendaMascota.jpg" class="img-thumbnail" alt="Cinque Terre" height="200" width="300"></a><br><br>
             </div>
 
-            <div class="col-md-3">
+            <div class="col-md-4">
                 <h6>PRÓXIMO EVENTO ESPECIAL ONLINE</h6><hr>
                 <p>Masterclass educación y comunicación</p><br>
                 <p>Domingo 12 de Diciembre. Online en vivo, 17 a 19 hs.</p>
                 <p>Inscripciones abiertas</p>
             </div>
 
-            <div class="col-md-4">
+            <div class="col-md-3">
                 <h6>¡SEGUINOS EN NUESTRAS REDES!</h6>
             </div>
         </div>
@@ -198,9 +208,12 @@
             </section>
         </div>
         <!-- Copyright -->
-        <div class="text-center text-white p-3" style="background-color: rgba(0, 0, 0, 0.2);"> © 2020 Copyright:
-            <a class="text-white" href="https://mdbootstrap.com/">perrosconclase.com</a>
+        <div class="row">
+            <div class="text-center text-white p-3" style="background-color: rgba(0, 0, 0, 0.2);"> © 2020 Copyright:
+                <a class="text-white" href="https://mdbootstrap.com/">perrosconclase.com</a>
+            </div>
         </div>
+        
     </footer>
 
     <!-- Script Bootstrap -->

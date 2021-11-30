@@ -21,16 +21,25 @@
     <meta name="description" content="Conoce nuestro mundo donde enseñamos y ayudamos a tus mascotas a ser mas 
     ordenados, felices y obedientes">
 
+    <!-- Lista de fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Fredoka+One&family=Permanent+Marker&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
     <!-- Header -->
-    <header>
+    <header class="container">
         <div class="row cabecera">
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
         
                 <div class="col-md-4 tituloPrincipal">
-                    <h1>Perros con clase</h1>
+                    <a href="../index.html"><h1>Perros con clase</h1></a>
                 </div>
         
                 <div class="col-md-6 text-center">
@@ -40,10 +49,10 @@
                             data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="pages/cursos.html">
                             Nuestros cursos</a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                <li><a class="dropdown-item" href="#curso1">Curso 1</a></li>
-                                <li><a class="dropdown-item" href="#curso2">Curso 2</a></li>
-                                <li><a class="dropdown-item" href="#curso3">Curso 3</a></li>
-                                <li><a class="dropdown-item" href="#curso4">Curso 4</a></li>
+                                <li><a class="dropdown-item" href="#curso1">Curso de Obediencia y Conducta</a></li>
+                                <li><a class="dropdown-item" href="#curso2">Curso de Entretenimiento</a></li>
+                                <li><a class="dropdown-item" href="#curso3">Curso de Socialización</a></li>
+                                <li><a class="dropdown-item" href="#curso4">Curso de Esparcimiento</a></li>
                             </ul>
                         </li>
                         <li class="nav-item">
@@ -78,23 +87,21 @@
 
     </header>
 
-    <main class="fondoPages">
+    <main class="container fondoPages">
         <div class="row">
-            <div class="col-md-6">
-                <h3 id="curso1">Curso 1</h3><hr><br>
-                <img src="../multimedia/perroCurso1.jfif" alt="" height="300px" width="400px"><br><br>
-                <p>Un largo paseo diario puede ser muy beneficioso para el perro y también para nosotros. En la 
-                medida de lo posible, lo ideal es que esos paseos sean intensos, de entre 30 minutos y una 
-                hora y, sobre todo, que sean constantes. Eso sí, debe ser combinado con otras actividades: 
-                juegos, carreras, olfatear, conocer sitios nuevos… Muchos animales realizan paseos diarios, 
-                por lo general cortos o de baja intensidad, como única actividad física en su día a día, y 
-                esto es insuficiente para determinados perros, por lo que es aconsejable complementarlo con 
-                algún otro tipo de actividad.</p>
+            <div class="col-md-6 text-center">
+                <h3 id="curso1">Curso de Obediencia y Conducta</h3><hr><br>
+                <img src="../multimedia/perroCurso1.jfif" class="rounded-circle" alt="Cinque Terre" ><br><br>
+                <p> En este nivel inicial orientamos las energías a que el perro obedezca al dueño en todos los ambientes y 
+                situaciones, a que aprenda a comer de manera relajada, a caminar correctamente por la calle. Aprenderá las 
+                órdenes básicas de sentado, echado, quieto y veni. El perro aprenderá a socializar en distintas 
+                situaciones, mientras que su dueño aprenderá qué cosas y en qué momento corregir y cuándo no hacerlo. 
+                Asimismo durante todo el curso se trabajará intentando la conexión máxima de perro y dueño.</p>
             </div>
         
-            <div class="col-md-6">
-                <h3 id="curso2">Curso 2</h3><hr><br>
-                <img src="../multimedia/perroCurso2.jfif" alt="" height="300px" width="400px"><br><br>
+            <div class="col-md-6 text-center">
+                <h3 id="curso2">Curso de Entretenimiento</h3><hr><br>
+                <img src="../multimedia/perroCurso2.jfif" class="rounded-circle" alt="Cinque Terre" ><br><br>
                 <p>Otra excelente actividad para nuestro can es el juego. No es necesaria mucha imaginación, 
                 bastarán juegos simples como el lanzamiento de objetos. Lo ideal es que le lancemos una pelota 
                 o un objeto seguro (mejor si es un juguete específicamente diseñado para tal fin), y que 
@@ -103,9 +110,9 @@
                 el vínculo con nuestro fiel amigo.</p>
             </div>
     
-            <div class="col-md-6">
-                <h3 id="curso3">Curso 3</h3><hr><br>
-                <img src="../multimedia/perroCurso3.jpg" alt="" height="300px" width="400px"><br><br>
+            <div class="col-md-6 text-center">
+                <h3 id="curso3">Curso de Socialización</h3><hr><br>
+                <img src="../multimedia/perroCurso3.jpg" class="rounded-circle" alt="Cinque Terre" ><br><br>
                 <p>Tanto en las grandes ciudades como en los pequeños núcleos de población no es difícil encontrar 
                 compañeros de juegos para nuestro perro. Correr, perseguirse, y lanzarse uno sobre otro, son 
                 los juegos predilectos entre canes. Además de divertido y de ser una fantástica actividad a 
@@ -113,19 +120,21 @@
                 sus habilidades sociales.</p>
             </div>
 
-            <div class="col-md-6">
-                <h3 id="curso4">Curso 4</h3><hr><br>
-                <img src="../multimedia/perroCurso4.jpg" alt="" height="300px" width="400px"><br><br>
-                <p>Tanto en las grandes ciudades como en los pequeños núcleos de población no es difícil encontrar 
-                compañeros de juegos para nuestro perro. Correr, perseguirse, y lanzarse uno sobre otro, son 
-                los juegos predilectos entre canes. Además de divertido y de ser una fantástica actividad a 
-                nivel físico, el juego con iguales les permite relacionarse con otros animales y desarrollar 
-                sus habilidades sociales.</p>
+            <div class="col-md-6 text-center">
+                <h3 id="curso4">Curso de Esparcimiento</h3><hr><br>
+                <img src="../multimedia/perroCurso4.jpg" class="rounded-circle" alt="Cinque Terre" ><br><br>
+                <p>Un largo paseo diario puede ser muy beneficioso para el perro y también para nosotros. En la 
+                medida de lo posible, lo ideal es que esos paseos sean intensos, de entre 30 minutos y una 
+                hora y, sobre todo, que sean constantes. Eso sí, debe ser combinado con otras actividades: 
+                juegos, carreras, olfatear, conocer sitios nuevos… Muchos animales realizan paseos diarios, 
+                por lo general cortos o de baja intensidad, como única actividad física en su día a día, y 
+                esto es insuficiente para determinados perros, por lo que es aconsejable complementarlo con 
+                algún otro tipo de actividad.</p>
             </div>
-        </div><br>
+        </div><br><br>
 
         <div class="row text-center linkIndex">
-            <a href="../index.html"><img src="../multimedia/logo_home.jpg" alt="" height="30" width="30">
+            <a href="../index.html"><img src="../multimedia/logo_home.png" alt="" height="30" width="30">
             Volver a Página principal</a>
         </div><br>
 
@@ -133,11 +142,12 @@
 
     <!-- Footer -->
 
-    <footer class="bg-light text-center text-black">
+    <footer class="container bg-light text-center text-black">
         <div class="row recomendaciones">
             <div class="col-md-3">
                 <h6>CONOCÉ NUESTRA TIENDA</h6><hr>
-                <img src="../multimedia/tiendaMascota.jpg" alt="" height="200" width="300"></a>
+                <h6>Dirección: Quesada 1750 - Lomas de Zamora</h6>
+                <img src="../multimedia/tiendaMascota.jpg" class="img-thumbnail" alt="Cinque Terre" height="200" width="300"></a><br><br>
             </div>
 
             <div class="col-md-4">
@@ -172,9 +182,12 @@
             </section>
         </div>
         <!-- Copyright -->
-        <div class="text-center text-white p-3" style="background-color: rgba(0, 0, 0, 0.2);"> © 2020 Copyright:
-            <a class="text-white" href="https://mdbootstrap.com/">perrosconclase.com</a>
+        <div class="row">
+            <div class="text-center text-white p-3" style="background-color: rgba(0, 0, 0, 0.2);"> © 2020 Copyright:
+                <a class="text-white" href="https://mdbootstrap.com/">perrosconclase.com</a>
+            </div>
         </div>
+        
     </footer>
 
     <!-- Script Bootstrap -->
