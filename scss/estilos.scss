@@ -1,9 +1,14 @@
+@import "inicializacion";
 @import "header";
 @import "carousel";
 @import "index";
 @import "footer";
 
 /*link a Index en cada pagina*/
+
+.container{
+    max-width: 100%;
+}
 
 .linkIndex{
     transition: transform 1s;
@@ -44,12 +49,11 @@
 /*fondo de las paginas*/
 
 .fondoPages{
-    background-image: url("../multimedia/fondoPrinciapalVioleta.jpg");
+    background-image: linear-gradient(#f7f5f8a6, #945394a6), 
+                    url("../multimedia/fondoPrinciapalVioleta.jpg");
     background-repeat: repeat;
     background-size: cover;
     background-position: 0px;
-
-    padding: 10px;
 
     p{
         font-style: italic;

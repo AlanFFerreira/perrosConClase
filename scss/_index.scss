@@ -1,15 +1,18 @@
 .reputacion{
     background-color: orange;
-
     color: whitesmoke;
-
-    padding: 100px;
 
     font-family: 'Permanent Marker', cursive;
     font-style: italic;
     font-weight: bold;
-
     text-align: center;
+
+    padding: 50px;
+
+    div{
+        border: 1px solid black;
+        border-radius: 50%;
+    }
 }
 
 .ultimaNovedad{
